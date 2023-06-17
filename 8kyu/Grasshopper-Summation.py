@@ -22,8 +22,8 @@ def summation(num):
 
 # Best practices
 
-def summation(num):
-    return sum(xrange(num + 1))
+# def summation(num):
+#     return sum(xrange(num + 1))
 
 def summation(num):
     return sum(range(1,num+1))
