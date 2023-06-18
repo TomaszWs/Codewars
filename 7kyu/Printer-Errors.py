@@ -24,7 +24,6 @@ def printer_error(s):
     string_l = list(s)
     for i in string_l:
         if i not in re.findall('[a-m]', s):
-            print(i)
             error+=1
     return f'{error}/{len(s)}'
 
